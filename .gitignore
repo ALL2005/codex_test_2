@@ -1,0 +1,27 @@
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
