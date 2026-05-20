@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>青禾小馆 | Seasonal Dining</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="青禾小馆首页">
+      <span class="brand-mark">QH</span>
+      <span>青禾小馆</span>
+    </a>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="#menu">菜单</a>
+      <a href="#space">环境</a>
+      <a href="#booking">预订</a>
+    </nav>
+    <a class="nav-cta" href="tel:+862188886666">021 8888 6666</a>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Seasonal Chinese Bistro</p>
+        <h1>青禾小馆</h1>
+        <p class="hero-copy">用当季食材做安静、清爽、带一点烟火气的中式晚餐。</p>
+        <div class="hero-actions" aria-label="主要操作">
+          <a class="button primary" href="#booking">预订座位</a>
+          <a class="button secondary" href="#menu">查看菜单</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro" aria-label="餐馆亮点">
+      <div>
+        <p class="section-kicker">今晚供应</p>
+        <h2>从热锅气到清口小菜，节奏刚刚好。</h2>
+      </div>
+      <div class="intro-grid">
+        <article>
+          <span>01</span>
+          <h3>手作小食</h3>
+          <p>藤椒口水鸡、桂花糯米藕、炭烤菌菇，适合慢慢开胃。</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>主厨热菜</h3>
+          <p>砂锅黄鱼、黑椒牛肋、时蔬煨豆腐，保留热度和鲜味。</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>茶酒搭配</h3>
+          <p>冷泡乌龙、青梅酒、低度米酿，为不同菜式留出余味。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="section-head">
+        <p class="section-kicker">Menu</p>
+        <h2>招牌菜单</h2>
+      </div>
+      <div class="menu-grid">
+        <article class="dish-card">
+          <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80" alt="铺满香料和蔬菜的烤鱼">
+          <div>
+            <p class="dish-price">¥128</p>
+            <h3>青花椒砂锅鱼</h3>
+            <p>鲜鱼片、青花椒、莴笋和豆芽，汤底辛香但不厚重。</p>
+          </div>
+        </article>
+        <article class="dish-card">
+          <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=900&q=80" alt="盛在深色盘中的煎烤肉丸">
+          <div>
+            <p class="dish-price">¥96</p>
+            <h3>陈皮黑椒牛肋</h3>
+            <p>慢炖牛肋收汁后快炒，陈皮香气让酱汁更轻快。</p>
+          </div>
+        </article>
+        <article class="dish-card">
+          <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80" alt="炒饭和蔬菜摆盘">
+          <div>
+            <p class="dish-price">¥68</p>
+            <h3>虾仁芥兰炒饭</h3>
+            <p>粒粒分明，配芥兰丁、虾仁和一点锅气。</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="space-section" id="space">
+      <div class="space-image" role="img" aria-label="餐厅晚餐环境"></div>
+      <div class="space-copy">
+        <p class="section-kicker">Dining Room</p>
+        <h2>适合两个人吃饭，也适合一桌人慢慢聊。</h2>
+        <p>晚餐时段灯光偏暖，开放式吧台能看到出餐节奏。靠窗位置安静，内侧长桌更适合朋友聚餐。</p>
+        <dl class="details-list">
+          <div>
+            <dt>营业时间</dt>
+            <dd>周二至周日 11:30-22:00</dd>
+          </div>
+          <div>
+            <dt>地址</dt>
+            <dd>上海市静安区青禾路 18 号</dd>
+          </div>
+          <div>
+            <dt>人均</dt>
+            <dd>¥160-220</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="booking-section" id="booking">
+      <div>
+        <p class="section-kicker">Reservation</p>
+        <h2>今晚留一张好桌。</h2>
+        <p>电话预订可备注靠窗、生日布置或忌口信息。</p>
+      </div>
+      <form class="booking-form">
+        <label>
+          姓名
+          <input type="text" name="name" placeholder="你的称呼">
+        </label>
+        <label>
+          人数
+          <select name="party-size">
+            <option>2 位</option>
+            <option>3-4 位</option>
+            <option>5-8 位</option>
+            <option>包间咨询</option>
+          </select>
+        </label>
+        <label>
+          日期
+          <input type="date" name="date">
+        </label>
+        <label>
+          电话
+          <input type="tel" name="phone" placeholder="手机号">
+        </label>
+        <button type="submit">提交预订</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>青禾小馆</p>
+    <p>Fresh plates, warm tables, quiet evenings.</p>
+  </footer>
+</body>
+</html>
